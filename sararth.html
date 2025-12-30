@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Database</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: #f2f7fb;   /* light blue background */
+    }
+
+    /* Header */
+    .header {
+      background-color: #1e3a5f;   /* dark blue */
+      color: white;
+      padding: 15px;
+    }
+
+    .header h1 {
+      margin: 0;
+    }
+
+    /* Menu */
+    .menu {
+      background-color: #2c7da0;   /* medium blue */
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+      color: #e0f4ff;
+    }
+
+    /* Main Layout */
+    .container {
+      display: flex;
+    }
+
+    /* Services */
+    .services {
+      width: 25%;
+      background-color: #d9edf7;   /* light blue */
+      padding: 10px;
+    }
+
+    .services h3 {
+      color: #1e3a5f;
+    }
+
+    .services ul {
+      padding-left: 18px;
+    }
+
+    .services a {
+      text-decoration: none;
+      color: #1e3a5f;
+    }
+
+    .services a:hover {
+      text-decoration: underline;
+    }
+
+    /* Content */
+    .content {
+      width: 75%;
+      padding: 15px;
+      background-color: #ffffff;   /* white content area */
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #1e3a5f;
+    }
+
+    p {
+      color: #333;
+      line-height: 1.6;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Library Database System</h1>
+    <p>Simple library information management website</p>
+  </div>
+
+  <!-- MENU -->
+  <div class="menu">
+    <a href="#home">Home</a>
+    <a href="#login">Login</a>
+    <a href="#registration">Registration</a>
+    <a href="#catalogue">Catalogue</a>
+    <a href="#issued">Issued Books</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- BODY -->
+  <div class="container">
+
+    <!-- SERVICES -->
+    <div class="services">
+      <h3>Library Services</h3>
+      <ul>
+        <li><a href="#books">Book List</a></li>
+        <li><a href="#authors">Authors</a></li>
+        <li><a href="#rules">Library Rules</a></li>
+        <li><a href="#availability">Book Availability</a></li>
+        <li><a href="#members">Members</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+      <div id="home">
+        <h2>Welcome to the Library</h2>
+        <p>
+          A library database system helps manage books, members, and borrowing
+          records efficiently.
+        </p>
+      </div>
+
+      <div id="login">
+        <h2>Login</h2>
+        <p>Login page for librarians and registered members.</p>
+      </div>
+
+      <div id="registration">
+        <h2>Registration</h2>
+        <p>New members can register here.</p>
+      </div>
+
+      <div id="catalogue">
+        <h2>Book Catalogue</h2>
+        <p>List of available books categorized by subject.</p>
+      </div>
+
+      <div id="issued">
+        <h2>Issued Books</h2>
+        <p>Books currently issued to members.</p>
+      </div>
+
+      <div id="contact">
+        <h2>Contact Library</h2>
+        <p>Email: library@college.edu</p>
+        <p>Phone: +91-XXXXXXXXXX</p>
+      </div>
+
+      <div id="books">
+        <h2>Book List</h2>
+        <p>Complete list of books.</p>
+      </div>
+
+      <div id="authors">
+        <h2>Authors</h2>
+        <p>Information about authors.</p>
+      </div>
+
+      <div id="rules">
+        <h2>Library Rules</h2>
+        <p>Borrowing rules and policies.</p>
+      </div>
+
+      <div id="availability">
+        <h2>Book Availability</h2>
+        <p>Check availability of books.</p>
+      </div>
+
+      <div id="members">
+        <h2>Members</h2>
+        <p>Registered library members.</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
